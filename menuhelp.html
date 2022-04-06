@@ -1,0 +1,31 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="menuhelp.css">
+	<script type="text/javascript" src="menu.js" defer="true"></script>
+	<script type= "text/javascript" src = "game/phaser.min.js" defer="true"></script>
+	<script type="text/javascript" src = "game/arcade.js" defer="true"></script>
+	<script type="text/javascript" src = "game/story.js" defer="true"></script>
+	<title>Magical Bobble</title>
+</head>
+<body>
+	<header>
+		<text>
+			<p>Match the colour of the incoming<p></p><p>balls to the colours around you.</p><p>Not catching them will</p><p>reduce your life points.</p><p>When they reach zero, you lose.</p><p>Rotate using the arrow keys.</p><p>There are five power-ups, to catch</p><p>them match their colour with</p><p>the colours around you.</p><p>Not catching means you</p><p>do not get their effect.</p><p>Enjoy!</p>
+		</text>
+	</header>
+	<nav>
+		<div class="btn-group">
+			<button id="exit" onclick="self.close()" ></button>
+			<button id="infinity"></button>
+			<button id="play"></button>
+			<button id="highscores"></button>
+			<button id="sound"></button>
+			<button id="back"></button>
+			<button id="help"></button>
+		</div> 		
+	</nav>
+	<audio autoplay loop>
+		<source src="assets/helpSound.mp3" type="audio/mpeg">
+	</audio>	
+</body>
+</html>

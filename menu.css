@@ -1,0 +1,87 @@
+header{
+	background-image: url("assets/menu.png");
+	width:800;
+	height:600;
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin:auto;
+}
+nav{
+	padding-left: 400px;
+	margin-top: -175px;
+	padding-bottom: 100px;	
+}
+#help {
+	position: relative;
+	background-image: url('assets/botaohelp.png');
+    background-size: 60px 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+ 	border-style: none;
+ 	bottom: 400px;
+ 	right: 225px;
+}
+#back {
+	visibility: hidden;
+	background-image: url('assets/botaoback.png');
+    background-size: 130px 130px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+ 	border-style: none;
+ 	margin-top: -133px;
+}
+.btn-group button {
+	visibility: visible;
+	position:all;
+	margin-right: 10;
+}
+#exit {
+    background-image: url('assets/botaosair.png');
+    background-size: 130px 130px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+ 	border-style: none;
+}
+#infinity {
+    background-image: url('assets/botaoinfinito.png');
+    background-size: 130px 130px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+ 	border-style: none;
+}
+#play {
+    background-image: url('assets/botaojogar.png');
+    background-size: 150px 150px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+ 	border-style: none;
+}
+#highscores {
+    background-image: url('assets/botaohighscores.png');
+    background-size: 130px 130px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+ 	border-style: none;
+}
+#sound {
+    background-image: url('assets/botaosomon.png');
+    background-size: 130px 130px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+ 	border-style: none;
+}
+.btn-group button:hover{
+	background-color:#0066ad;
+	transition-duration: 1s;
+}
+.btn-group button:active{
+	background-color:#96c0dd;
+	transition-duration: 0.7s;
+}
